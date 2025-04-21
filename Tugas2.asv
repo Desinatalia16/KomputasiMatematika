@@ -1,0 +1,25 @@
+clc
+clear
+
+%Nested
+
+% x = input('Masukkan nilai x: ');
+% y = input('Masukkan nilai y: ');
+% 
+% if x >= 80
+%     if y >= 80
+%         disp('Bagus semua');
+%     else
+%         disp('x bagus, y kurang');
+%     end
+% elseif x >= 60
+%     if y >= 60
+%         disp('Cukup semua');
+%     else
+%         disp('x cukup, y kurang');
+%     end
+% else
+%     disp('x kurang');
+% end
+
+%while
