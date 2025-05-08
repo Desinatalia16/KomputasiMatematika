@@ -68,14 +68,25 @@ limit ((x^3+5)/(x^4+7))
 % disp(df_dy);
 
 %integral
-syms x;
-
-%definisi fungsi
-f = x^2 ;
-%menghitung integral tak tentu
-F = int (f, x);
-%menampilkan hasil
-disp('Integral tak tentu dari f(x) = x^2 :');
-disp (F);
+% syms x;
+% 
+% %definisi fungsi
+% f = x^2 ;
+% %menghitung integral tak tentu
+% F = int (f, x);
+% %menampilkan hasil
+% disp('Integral tak tentu dari f(x) = x^2 :');
+% disp (F);
 
 %integral tentu
+f = @(x) x.^2 ;
+%batas integral
+a = 0 ;
+b = 1 ; 
+%mneghitung Integral tentu
+result = integral(f, a, b) ;
+
+%menampilkan hasil
+disp(['Integral dari f(x) = 2x^2 dalam batas 0 hingga 1:',num2str(result)]);
+
+
