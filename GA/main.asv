@@ -1,0 +1,6 @@
+clc
+clear
+
+%gen
+target = 'Desi_tiwi'
+len = leng(target);
