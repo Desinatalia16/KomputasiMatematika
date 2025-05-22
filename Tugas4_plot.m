@@ -162,9 +162,9 @@
 % grid on;
 
 %semilog plot
-x = 1:100;
-y = exp(x/20);
-figure;
-semilogy(x, y, 'b');
-title('Semilog-y Plot: y = e^{x/20}');
-xlabel('x'); ylabel('log(y)');
+% x = 1:100;
+% y = exp(x/20);
+% figure;
+% semilogy(x, y, 'b');
+% title('Semilog-y Plot: y = e^{x/20}');
+% xlabel('x'); ylabel('log(y)');
